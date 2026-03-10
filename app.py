@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 GITHUB_TOKEN = os.environ["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"]
 GITHUB_OWNER = os.environ["Drew-t-s"]
-GITHUB_REPO = os.environ["Test-TOA"
+GITHUB_REPO = os.environ["Test-TOA"]
 
 @app.route("/smartsheet-webhook", methods=["POST"])
 def webhook():
